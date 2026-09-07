@@ -7,7 +7,7 @@ import { matchesSettingsSearch } from './settings-search'
 // Native word for "language" in each supported UI language. These must be
 // findable no matter which locale the interface is currently rendered in, so a
 // speaker can locate (and switch to) their language from any starting point.
-const NATIVE_LANGUAGE_WORDS = ['语言', '語言', '언어', '言語', 'Idioma', 'Langue', 'Lingua']
+const NATIVE_LANGUAGE_WORDS = ['语言', '語言', '언어', '言語', 'Idioma', 'Langue']
 
 describe('getLanguageEntries', () => {
   afterEach(async () => {
